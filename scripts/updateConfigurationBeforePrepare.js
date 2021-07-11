@@ -188,9 +188,9 @@ function processAccessRules(manifest) {
         config.removeElements('.//access[@hap-rule=\'yes\']');
     
         // Remove "generic" rules to open external URLs outside the app
-        config.removeElements('.//allow-intent[@href=\'http://*/*\']');
-        config.removeElements('.//allow-intent[@href=\'https://*/*\']');
-        config.removeElements('.//allow-intent[@href=\'*\']');
+        //config.removeElements('.//allow-intent[@href=\'http://*/*\']');
+        //config.removeElements('.//allow-intent[@href=\'https://*/*\']');
+        //config.removeElements('.//allow-intent[@href=\'*\']');
         
         // determine base rule based on the start_url and the scope
         var baseUrlPattern = manifest.start_url;
