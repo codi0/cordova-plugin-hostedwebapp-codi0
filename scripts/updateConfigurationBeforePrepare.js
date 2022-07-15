@@ -731,10 +731,10 @@ module.exports = function (context) {
 
         Q.allSettled(pendingTasks).then(function () {            
           // Configure the icons once all icon files are downloaded
-          processiOSIcons(manifestIcons, manifestSplashScreens);
-          processAndroidIcons(manifestIcons, manifestSplashScreens);
-          processWindowsIcons(manifestIcons, manifestSplashScreens);
-          processWindowsPhoneIcons(manifestIcons, manifestSplashScreens);
+          //processiOSIcons(manifestIcons, manifestSplashScreens);
+          //processAndroidIcons(manifestIcons, manifestSplashScreens);
+          //processWindowsIcons(manifestIcons, manifestSplashScreens);
+          //processWindowsPhoneIcons(manifestIcons, manifestSplashScreens);
           
           // save the updated configuration
           config.write();
