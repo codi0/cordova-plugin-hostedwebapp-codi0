@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="gopay-plugin-hostedwebapp"
-    version="0.4.0">
+    version="0.5.0">
     <name>HostedWebApp</name>
     <description>Hosted Web App Plugin</description>
     <license>MIT License</license>
@@ -9,7 +9,6 @@
     <repo>https://github.com/crux153/ManifoldCordova.git</repo>
     <issue>https://github.com/crux153/ManifoldCordova/issues</issue>
 
-    <dependency id="cordova-plugin-whitelist" version=">=1.0.1" />
     <dependency id="cordova-plugin-network-information" version=">=1.0.0" />
 
     <hook type="before_prepare" src="scripts/updateConfigurationBeforePrepare.js" />
@@ -24,6 +23,7 @@
     <asset src="www/hostedapp-bridge.js" target="hostedapp-bridge.js" />
 
     <engines>
+        <engine name="cordova-android" version=">=10.0.0" />
         <engine name="cordova-ios" version=">=6.0.0" />
     </engines>
 
