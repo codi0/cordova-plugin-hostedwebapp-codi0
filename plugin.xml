@@ -6,8 +6,8 @@
     <description>Hosted Web App Plugin</description>
     <license>MIT License</license>
     <keywords>cordova,manifest,hosted,web,manifoldjs</keywords>
-    <repo>https://github.com/crux153/ManifoldCordova.git</repo>
-    <issue>https://github.com/crux153/ManifoldCordova/issues</issue>
+    <repo>https://github.com/FacilityNet/gopay-plugin-hostedwebapp.git</repo>
+    <issue>https://github.com/FacilityNet/gopay-plugin-hostedwebapp/issues</issue>
 
     <dependency id="cordova-plugin-network-information" version=">=1.0.0" />
 

@@ -1,11 +1,11 @@
 {
-  "version": "0.3.2",
-  "name": "cordova-plugin-hostedwebapp",
-  "cordova_name": "Cordova Hosted Web App Plugin",
-  "description": "Hosted Web App Plugin",
+  "version": "0.5.0",
+  "name": "gopay-plugin-hostedwebapp",
+  "cordova_name": "GoPay Cordova Hosted Web App Plugin",
+  "description": "GoPay Cordova Hosted Web App Plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/crux153/ManifoldCordova.git"
+    "url": "https://github.com/FacilityNet/gopay-plugin-hostedwebapp.git"
   },
   "keywords": [
     "cordova",

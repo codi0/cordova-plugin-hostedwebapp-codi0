@@ -726,8 +726,8 @@ module.exports = function (context) {
         // Obtain and download the icons and splash screens specified in the manifest.
         // Currently, splash screens specified in the splash_screens section of the manifest 
         // take precedence over similarly sized splash screens in the icons section.
-        var manifestIcons = processImageList(manifest, manifest.icons, manifest.start_url);
-        var manifestSplashScreens = processImageList(manifest, manifest.splash_screens, manifest.start_url);
+        //var manifestIcons = processImageList(manifest, manifest.icons, manifest.start_url);
+        //var manifestSplashScreens = processImageList(manifest, manifest.splash_screens, manifest.start_url);
 
         Q.allSettled(pendingTasks).then(function () {            
           // Configure the icons once all icon files are downloaded
