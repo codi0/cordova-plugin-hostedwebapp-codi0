@@ -2,8 +2,8 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pwa"
     version="0.6.0">
-    <name>HostedWebApp</name>
-    <description>PWA plugin</description>
+    <name>PWA</name>
+    <description>Run progressive web apps in cordova</description>
     <license>MIT License</license>
     <keywords>cordova,web,pwa,manifest</keywords>
     <repo>https://github.com/codi0/cordova-plugin-pwa.git</repo>
