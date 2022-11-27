@@ -1,16 +1,16 @@
 {
-  "version": "0.5.0",
-  "name": "gopay-plugin-hostedwebapp",
-  "cordova_name": "GoPay Cordova Hosted Web App Plugin",
-  "description": "GoPay Cordova Hosted Web App Plugin",
+  "version": "0.6.0",
+  "name": "cordova-plugin-pwa",
+  "cordova_name": "Cordova Progressive Web App Plugin",
+  "description": "Cordova Progressive Web App Plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FacilityNet/gopay-plugin-hostedwebapp.git"
+    "url": "https://github.com/codi0/cordova-plugin-pwa.git"
   },
   "keywords": [
     "cordova",
     "manifest",
-    "hosted",
+    "pwa",
     "web",
     "ecosystem:cordova",
     "cordova-android",
